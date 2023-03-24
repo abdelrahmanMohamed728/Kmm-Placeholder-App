@@ -1,10 +1,22 @@
+# KMM-specific ignores
+.gradle/
+.idea/
 *.iml
-.gradle
-.idea
-.DS_Store
-build
-captures
-.externalNativeBuild
-.cxx
-local.properties
-xcuserdata
+
+# Android-specific ignores
+*/build/
+*/.externalNativeBuild/
+*/local.properties
+*.apk
+
+# iOS-specific ignores
+*/xcodeproj/
+*/xcworkspace/
+*.ipa
+*.xcarchive/
+*.dSYM.zip
+
+# Shared code ignores
+*/build/
+*/.kotlin/
+*.kotlin_module
